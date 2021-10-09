@@ -2467,6 +2467,13 @@ letter-spacing: 1px;
      color: rgb(103,103,129);  
      text-decoration: none; 
     }
+    .post-tags li:hover{
+       color: white!important;
+        background-color: blue!important;
+    }
+    .post-tags li a:hover{
+        color: white!important;
+    }
     .social-links li{
         font-size: 25px;
         display: inline-flex;
@@ -2475,6 +2482,9 @@ letter-spacing: 1px;
         margin: 15px 10px 15px 0 ;
         background-color: white;
         border-radius: 8px;
+    }
+    .social-links li:hover{
+        color: blue;
     }
     .next-prev-button{
         padding-top: 80px;
